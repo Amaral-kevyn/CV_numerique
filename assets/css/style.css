@@ -66,6 +66,24 @@ h3{
     .separateur{margin-bottom: 4.5em;}
     
 }
+@media screen and (min-width:1400px){
+    .main{margin-left: 35%;}
+    .menu{display:none}
+    #identity{display:none}
+    #hobby{display: none;} 
+    .container-fluid{margin-bottom: 4.5em;}
+    .separateur{margin-bottom: 4.5em;}
+    
+}
+@media screen and (min-width:1600px){
+    .main{margin-left: 42%;}
+    .menu{display:none}
+    #identity{display:none}
+    #hobby{display: none;} 
+    .container-fluid{margin-bottom: 4.5em;}
+    .separateur{margin-bottom: 4.5em;}
+    
+}
 
 /* fin media-qu*/
 
