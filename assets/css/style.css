@@ -10,8 +10,14 @@ body{
 }
 .container-fluid{
     background-color: rgba(243, 242, 242, 0.603);
+    border-radius: 5%;
 
 }
+
+#about-me img{
+    border-radius: 5%;
+}
+
 h3{
     font-family: 'Indie Flower';
 }
@@ -24,7 +30,9 @@ h3{
 }
 
 /*bis*/
-
+.nav{
+    height: 10em;
+}
 .bis{
     text-align: center;
     position: fixed;

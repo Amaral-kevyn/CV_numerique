@@ -73,3 +73,9 @@ function changeImg(){
 function reset(){
     this.src = 'assets/img/'+ this.id + '.jpg';
 }
+
+$(function () {
+    $('#navbarSupportedContent').on('click', '.nav-link', function () {
+        $('#navbarSupportedContent').toggleClass('show');
+    })
+})
